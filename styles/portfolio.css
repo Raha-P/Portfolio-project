@@ -50,3 +50,42 @@
     transition-timing-function: ease-in-out;
     transition-duration: 0.15s;
 }
+
+p {
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.explanation {
+    padding: 70px 61px;
+}
+
+.container h2 {
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+}
+
+.container p {
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    color: #272142B2;;
+}
+
+.container a {
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid;
+    border-color:var(--branding-color);
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    color: var(--branding-color);
+    border-radius: 4px;
+}
+
+.container a:hover {
+    color: black;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
