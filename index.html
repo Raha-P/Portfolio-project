@@ -21,25 +21,47 @@
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
 <body>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="index.html">
+                <img class="d-none d-md-block" src="logo.jpg" width="200px" alt="Raha Pedram's logo">
+                <img class="d-block d-md-none" src="small-logo.jpg" width="45px" alt="Raha Pedram's small logo">
+            </a> 
+            <ul class="mt-3">
+            <a href="index.html" class="text-decoration-none" title="Homepage">
+                <li class="active">Home</li>
+            </a>
+            <a href="about.html" class="text-decoration-none" title="About Raha">
+                <li>About</li>
+            </a>
+            <a href="work.html" class="text-decoration-none" title="Raha's works">
+                <li>Work</li>
+            </a>
+            <a href="contact.html" class="text-decoration-none" title="Contact Raha">
+                <li>Contact</li>
+            </a>  
+            </ul>
+        </nav>
+        </div>
     <div class="hero">
     <p>👋 Hello, I am</p>
     <h1>Raha Pedram fard</h1>
     <h2>Front-end developer based in Iran</h2>
-    <a class="mainbuttom" href="#">Contact me</a>
+    <a class="mainbuttom" href="contact.html">Contact me</a>
     </div>
-    <p class="text-center m-5">Featured Project which my best projects be choice to show</p>
+    <p class="text-center m-5">Check out some of my featured projects below</p>
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img src="marshmallow.png" width="560px" alt="">
+                <img src="marshmallow.png" class="img-fluid d-none d-md-flex" width="560px" alt="">
             </div>
             <div class="col-sm-6 explanation">
-                <h2>Marshmallow Project</h2> <br>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named
-                Duden flows by</p>
+                <h2>Marshmallow Landing Page</h2> <br>
+                <p>I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used my knowledge
+                of these languages, along with my new skills in VS Code, to build a landing page about Marshmallows. The page utilizes
+                JavaScript functions to create user interaction.</p>
                 <br>
-                <a href="#">View detail projetc</a>
+                <a href="work.html">View projetc details</a>
             </div>
         </div>
         <br>
@@ -48,34 +70,57 @@
         <div class="row">
             <div class="col-sm-6 explanation">
                 <h2>Weather App</h2> <br>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named
-                Duden flows by</p>
+                <p>I built a Vanilla JavaScript weather app After I have become skilled in Bootstrap, API’s, real-life development workflow, hosting, and
+                advanced JavaScript. I combined all of these skills to create a fully-functioning weather app.</p>
                 <br>
-                <a href="#">View detail projetc</a>
+                <a href="work.html">View projetc details</a>
             </div>
             <div class="col-sm-6">
-                <img src="weatherapp.png" width="560px" alt="">
+                <img src="weatherapp.png" class="img-fluid d-none d-md-flex" width="560px" alt="">
             </div>
         </div>
         <br>
         <br>
         <br>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-sm-6">
-                <img src="https://8xjze.codesandbox.io/images/dictionary.png" width="560px" alt="">
+                <img src="https://8xjze.codesandbox.io/images/dictionary.png" class="img-fluid d-none d-md-flex" width="560px" alt="">
             </div>
             <div class="col-sm-6 explanation">
-                <h2>dictionary App</h2> <br>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-                    texts.
-                    Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small
-                    river named
-                    Duden flows by</p>
+                <h2>Dictionary App</h2> <br>
+                <p>I immersed myself in React development in SheCodes React. I used my knowledge of this highly-demanded framework to build
+                a working dictionary app incorporating coding best practices, along with the most popular tools and technologies.</p>
                 <br>
-                <a href="#">View detail projetc</a>
+                <a href="work.html">View projetc details</a>
             </div>
         </div>
+
+        <footer>
+            <div class="footer-box d-flex justify-content-between rounded d-none d-md-flex">
+
+            <div>
+            <h3>Work Inquiry</h3>
+            <p>Let's work together</p>
+            </div>
+
+            <div>
+            <a class="mainbuttom" href="contact.html">Contact me</a>
+            </div>
+
+            </div>
+
+            <a href="mailto:raha.pf99@gmail.com" class="mail">raha.pf99@gmail.com</a><br>
+            <div class="d-flex justify-content-center mt-5 mb-5">
+            <a href="#"><i class='fab fa-github social-links'></i></a>
+            <a href="#"><i class='fab fa-instagram social-links'></i></a>
+            <a href="#"><i class='fab fa-telegram social-links'></i></a>
+            
+            </div>
+
+        </footer>
+
+        <p class="text-center">This website was coded by Raha Pedram fard, and is <a class="open-sourced" href="#">open-sourced</a>.</p>
+
     </div>
 </body>
 </html>
